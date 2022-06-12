@@ -1,13 +1,14 @@
 ################
-# Nombre - @usuario_github
+# Eric Alexander Szuka - @elEriiSz
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 """
-Obtener el grado de superposicion de una lista con la otra
+Obtener el la posicion de la superposicion de una lista con la otra
 """
-# Reemplazar por las funciones del ejercicio
 
 def superpuestos(cadena, cadena_v):
+    """Verifica si hay una letra igual y despues se fija si el resto de
+    chars estan a continuacion"""
     cont = 0
     if cadena_v[0] in cadena:
         for i in range(cadena.index(cadena_v[0]),(len(cadena_v))):
@@ -17,10 +18,6 @@ def superpuestos(cadena, cadena_v):
     return posicion, cont
     
 def principal():
-    """
-    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
-    (La entrada, la llamada al algoritmo y la salida)
-    """
     cadena = ['H', 'o', 'l', 'a', ' ', 'M', 'u', 'n', 'd', 'o']
     cadena_v = ['H', 'o', 'l', 'a']
     posicion, cont = superpuestos(cadena, cadena_v)

@@ -1,11 +1,10 @@
 ################
-# Nombre - @usuario_github
+# Eric Alexander Szuka - @elEriiSz
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 """
 Saber si los simbolos estan balanceados(si para cada simbolo abierto hay uno cerrado)
 """
-# Reemplazar por las funciones del ejercicio
 
 def corchetes_balanceados(cadena):
     """

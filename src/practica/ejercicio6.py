@@ -1,5 +1,5 @@
 ################
-# Nombre - @usuario_github
+# Eric Alexander Szuka - @elEriiSz
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 """
