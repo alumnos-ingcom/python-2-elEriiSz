@@ -3,8 +3,8 @@
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 """
-Estos son los test correspondienets al archivo `ejercicio1.py` que esta en
-`src`
+Estos son los test correspondienets al archivo `ejercicio3.py` que esta en
+`src/practica`
 """
 
 import pytest

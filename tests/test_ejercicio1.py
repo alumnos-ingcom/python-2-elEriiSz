@@ -4,7 +4,7 @@
 ################
 """
 Estos son los test correspondienets al archivo `ejercicio1.py` que esta en
-`src`
+`src/practica`
 """
 
 import pytest
