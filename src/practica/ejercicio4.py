@@ -2,14 +2,22 @@
 # Nombre - @usuario_github
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
-from math import sqrt
 """
 Obtener el n-esimo termino de la sucecion de fibonacci
 """
 # Reemplazar por las funciones del ejercicio
 
 def fibonacci_n(n):
-    return int(((1+sqrt(5))**n-(1-sqrt(5))**n)/(2**n*sqrt(5)))
+    a = 0
+    b = 1
+    sum = 0
+    count = 1
+    while(count <= n):
+        count += 1
+        a = b
+        b = sum
+        sum = a + b
+    return sum
 
 def principal():
     """
